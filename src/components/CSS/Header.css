@@ -3,18 +3,78 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 12px;
   
 }
 .Navbar-logo{
     display: flex;
-    align-items: center;
+    
 }
 
 .title{
     color: black;
     font-size: 1.6em;
     font-weight: 800;
-    padding: 12px;
+   
     display: flex;
     align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.Navbar-search{
+    display: flex;
+    align-items: center;
+}
+
+.searchInput{
+    width: 20vw;
+    height: 2.6em;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+}
+.searchBtn{
+    border-radius: 0 20px 20px 0;
+   align-items: center;
+   display: flex;
+   padding:  5.5px 10px  ;
+   border: none;
+   outline: none;
+
+}
+.microphone{
+    background-color: #EFEFEF;
+    padding: 6px;
+    border-radius: 50%;
+    margin-left: 8px ;
+}
+.Navbar-account{
+    display: flex;
+    align-items: center ;
+}
+.signInBtn{
+    display: flex;
+    align-items: center;
+    padding:  5.5px 10px  ;
+}
+
+.options{
+    background-color: #EFEFEF;
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 10px;
+   
+
+}
+.signInBtn{
+   border-radius: 10px; 
+   border: none;
+   outline: none;
+   font-size: 15px;
+  color: grey;
+ 
 }
