@@ -2,5 +2,19 @@
     background-color: rgb(223, 215, 215);
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    align-items: center;
+  
+}
+.Navbar-logo{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    color: black;
+    font-size: 1.6em;
+    font-weight: 800;
+    padding: 12px;
+    display: flex;
+    align-items: center;
 }
