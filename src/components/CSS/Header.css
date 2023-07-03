@@ -1,9 +1,13 @@
 .navbar{
-    background-color: rgb(223, 215, 215);
+    background-color: #39445a;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 12px;
+    cursor: pointer;
+    padding-bottom: 15px;
+    box-shadow: 0px 1px 5px black;
+    color: white;
   
 }
 .Navbar-logo{
@@ -12,7 +16,7 @@
 }
 
 .title{
-    color: black;
+    color: white;
     font-size: 1.6em;
     font-weight: 800;
    
@@ -77,4 +81,16 @@
    font-size: 15px;
   color: grey;
  
+}
+
+@media (max-width : 550px){
+    .Navbar-account{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
 }
