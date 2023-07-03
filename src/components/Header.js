@@ -2,7 +2,6 @@ import React from "react";
 import Icon from "@mdi/react";
 import "../components/CSS/Header.css"
 import {
-  mdiMenu,
   mdiMagnify,
   mdiYoutube,
   mdiMicrophone,
