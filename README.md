@@ -1,4 +1,4 @@
-Getting Swith Create React App
+Getting Swith Crea
 
 This project was bootstrapped with [Create React App](https://github.com/facebookfacebo
 
