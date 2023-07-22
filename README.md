@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.coebobo
 
 #
 
-In the project directory, you can run:
+In the project dir
 
 ### `npm start`
 
